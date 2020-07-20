@@ -3,7 +3,7 @@
 #
 
 mongo:
-  connection_string: "mongodb+srv://minecraft:Minecraft!@cluster0-gthsk.gcp.mongodb.net/test?retryWrites=true&w=majority"
+  connection_string: "" #Removed connection string for security reasons
   database: "minecraft"
 splunk:
   host: "10.0.0.148"
